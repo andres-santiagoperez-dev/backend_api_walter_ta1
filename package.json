@@ -1,7 +1,7 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "description": "crud de usuario",
+  "description": "crud de usuarios y productos",
   "keywords": [
     "crud",
     "user",
