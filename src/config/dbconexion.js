@@ -1,4 +1,4 @@
-import mysql from &quot;mysql2/promise&quot;; // importamos la libreria
+import mysql from "mysql2/promise"; // importamos la libreria
 //creamos una constante POOL
 const pool = mysql.createPool({
   host: "localhost" || process.env.APP_HOST,
