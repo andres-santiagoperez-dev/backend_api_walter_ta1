@@ -44,7 +44,7 @@ export const productoModel = {
     return rows;
   },
   update: async (codigo, data) => {
-    const sql = "UPDATE producto SET ? WHERE codigo = ?";
+    const sql = "UPDATE productos SET ? WHERE codigo = ?";
     //almacenamos la respuesta en un arreglo
     const [rows] = await db.query(sql, [data, codigo]);
     return rows;
